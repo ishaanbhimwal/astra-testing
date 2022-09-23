@@ -164,7 +164,7 @@ function Navbar2() {
           <Route exact path="/team" element={<TeamPage />} />
           <Route exact path="/contact-us" element={<ContactUsPage />} />
           <Route exact path="/about-us" element={<AboutUsPage />} />
-          <Route exact path="/404" element={<FourOhFour />} />
+          <Route exact path="*" element={<FourOhFour />} />
         </Routes>
       </Router>
     </>
