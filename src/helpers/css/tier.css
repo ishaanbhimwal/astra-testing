@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
 
 .sponsorship_tiers_back {
   height: 38vh;
@@ -27,7 +27,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sponsorship-tier-number{
+.sponsorship-tier-number {
   display: none;
 }
 @media screen and (max-width: 760px) {
@@ -44,9 +44,9 @@
       "text2 text2 text2"
       "text3 text3 text3";
   }
-  .sponsorship-tier-number{
-    display:inline-block;  
-    font-family: 'Vast Shadow', cursive;
+  .sponsorship-tier-number {
+    display: inline-block;
+    font-family: "Vast Shadow", cursive;
     font-size: calc(2vh + 20px);
   }
   #sponsorship-container div {

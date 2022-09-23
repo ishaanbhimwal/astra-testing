@@ -28,7 +28,7 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 5px;
-  margin-left:5vw;
+  margin-left: 5vw;
   @media (max-width: 540px) {
     padding: auto;
     margin: auto;

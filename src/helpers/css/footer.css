@@ -1,8 +1,8 @@
 .made-with-love {
-    background: rgb(26, 23, 23);
+  background: rgb(26, 23, 23);
   left: 0;
   height: 30px;
-  width:98%;
+  width: 98%;
   bottom: 10px;
   text-align: center;
   font-size: 12px;
@@ -43,24 +43,24 @@
   margin-right: auto;
 }
 
-.icon{
+.icon {
   margin-right: 20px;
   color: "white";
 }
 
-.instagram:hover{
+.instagram:hover {
   color: #fbad50;
 }
-.youtube:hover{
-  color: #FF0000;
+.youtube:hover {
+  color: #ff0000;
 }
-.linkedin:hover{
-  color:#0077b5
+.linkedin:hover {
+  color: #0077b5;
 }
-.twitter:hover{
-  color:#1DA1F2;
+.twitter:hover {
+  color: #1da1f2;
 }
-.github:hover{
+.github:hover {
   color: #6e5494;
 }
 

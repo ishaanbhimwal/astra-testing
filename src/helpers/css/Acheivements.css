@@ -8,14 +8,13 @@
   padding-bottom: 1em;
 }
 
-@media screen and (max-width: 720px) { 
+@media screen and (max-width: 720px) {
   .achievements_container {
     display: none;
   }
 }
 
-
-.achievements_container h2{
+.achievements_container h2 {
   font-size: 45px;
   font-weight: 300;
   margin: 10px;
