@@ -1,10 +1,17 @@
 //import "../helpers/css/projectsAlt.css";
-import Footer from '../Footer.js';
+import Footer from "../Footer.js";
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
-import { Keyboard, Pagination, Controller, Autoplay, Navigation, Mousewheel } from "swiper";
+import {
+  Keyboard,
+  Pagination,
+  Controller,
+  Autoplay,
+  Navigation,
+  Mousewheel,
+} from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -28,20 +35,20 @@ const paras = [
     title: "The MARS ROVER PROJECT (2019)",
     content:
       " We participate every year in The University Rover Challange(URC) which is an annual international competetion hosted by the Mars Society for university and college teams to fabricate a prototype Mars Rover, which will then be subjected to a series of tasks and challenges.The competition pushes the teams to the extreme limits of engineering, management and proactively work towards the motto of the challenge 'Think, Design and Engineer'",
-    id: 7
+    id: 7,
   },
   {
     title: "Indian Rover Design Challenge 2020",
     content:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    id: 8
+    id: 8,
   },
   {
     title: "IIT Bombay E-Yantra",
     content:
       " An international project based competition focused on solving real world problems involving dynamic control and kinematics of robots. eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. ",
-    id: 9
-  }
+    id: 9,
+  },
 ];
 
 const Fibonacci = (props) => {
@@ -80,9 +87,11 @@ function PastProjectPage() {
               enabled: false,
             }}
             direction={"vertical"}
-            modules={[Controller,]}
+            modules={[Controller]}
             onSwiper={setFirstSwiper}
-            controller={{control: [thirdSwiper, controlledSwiper, thirdSwiper]}}
+            controller={{
+              control: [thirdSwiper, controlledSwiper, thirdSwiper],
+            }}
             className="projectslide_fibonacci_holder"
           >
             {pics.map((pic) => (
@@ -120,18 +129,19 @@ function PastProjectPage() {
             pagination={{
               clickable: true,
             }}
-            
             autoplay={true}
             modules={[Controller, Keyboard, Pagination, Autoplay]}
             onSwiper={setThirdSwiper}
-            controller={{control: [firstSwiper, controlledSwiper, firstSwiper] }}
+            controller={{
+              control: [firstSwiper, controlledSwiper, firstSwiper],
+            }}
             className="projectslide_description"
           >
             {paras.map((para) => (
               <SwiperSlide key={para.id}>
                 <div>
-                <h1>{para.title}</h1>
-                <p>{para.content}</p>
+                  <h1>{para.title}</h1>
+                  <p>{para.content}</p>
                 </div>
               </SwiperSlide>
             ))}
@@ -139,11 +149,11 @@ function PastProjectPage() {
         </div>
       </div>
       <div>
-          <div className="spacer"></div>
-          <Footer />
+        <div className="spacer"></div>
+        <Footer />
       </div>
     </>
   );
-};
+}
 
 export default PastProjectPage;

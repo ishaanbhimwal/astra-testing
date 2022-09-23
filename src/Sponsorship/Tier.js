@@ -75,51 +75,69 @@ class Tier extends React.Component {
             <div className="back" />
           </div> */}
           <div className="tier-container">
-          <div className="back"></div>
-          <div className="sponsorship-tiers" id="sponsorship-container">
-            <div className="extra1">
-              <img src={gif} alt="" className="" width={150} height={200} />
-              <img src={gif2} alt="" className="" width={220} height={180} />
+            <div className="back"></div>
+            <div className="sponsorship-tiers" id="sponsorship-container">
+              <div className="extra1">
+                <img src={gif} alt="" className="" width={150} height={200} />
+                <img src={gif2} alt="" className="" width={220} height={180} />
+              </div>
+              <div className="dummy"></div>
+              <div className="text1">
+                <p className="sponsorship-tier-number">Tier 1</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, consequuntur modi molestiae fugit tempore sunt
+                  officia itaque nulla obcaecati suscipit tempora quod?
+                  Doloremque impedit adipisci suscipit? Quod ad quia minima?
+                </p>
+              </div>
+              <div className="image1">
+                <img
+                  src={o1}
+                  alt="Tier One"
+                  className=""
+                  height={200}
+                  width={200}
+                />
+              </div>
+              <div className="text2">
+                <p className="sponsorship-tier-number">Tier 2</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, consequuntur modi molestiae fugit tempore sunt
+                  officia itaque nulla obcaecati suscipit tempora quod?
+                  Doloremque impedit adipisci suscipit? Quod ad quia minima?
+                </p>
+              </div>
+              <div className="image2">
+                <img
+                  src={o2}
+                  alt="Tier Two"
+                  className=""
+                  height={200}
+                  width={200}
+                />
+              </div>
+              <div className="text3">
+                <p className="sponsorship-tier-number">Tier 3</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, consequuntur modi molestiae fugit tempore sunt
+                  officia itaque nulla obcaecati suscipit tempora quod?
+                  Doloremque impedit adipisci suscipit? Quod ad quia minima?
+                </p>
+              </div>
+              <div className="image3">
+                <img
+                  src={o3}
+                  alt="Tier Three"
+                  className=""
+                  height={200}
+                  width={200}
+                />
+              </div>
             </div>
-            <div className="dummy"></div>
-            <div className="text1">
-              <p className="sponsorship-tier-number">Tier 1</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, consequuntur modi molestiae fugit tempore sunt
-                officia itaque nulla obcaecati suscipit tempora quod? Doloremque
-                impedit adipisci suscipit? Quod ad quia minima?
-              </p>
-            </div>
-            <div className="image1">
-              <img src={o1} alt="Tier One" className="" height={200} width={200} />
-            </div>
-            <div className="text2">
-              <p className="sponsorship-tier-number">Tier 2</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, consequuntur modi molestiae fugit tempore sunt
-                officia itaque nulla obcaecati suscipit tempora quod? Doloremque
-                impedit adipisci suscipit? Quod ad quia minima?
-              </p>
-            </div>
-            <div className="image2">
-              <img src={o2} alt="Tier Two" className="" height={200} width={200} />
-            </div>
-            <div className="text3">
-              <p className="sponsorship-tier-number">Tier 3</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, consequuntur modi molestiae fugit tempore sunt
-                officia itaque nulla obcaecati suscipit tempora quod? Doloremque
-                impedit adipisci suscipit? Quod ad quia minima?
-              </p>
-            </div>
-            <div className="image3">
-              <img src={o3} alt="Tier Three" className="" height={200} width={200} />
-            </div>
-          </div>
-          <div className="extra2"></div>
+            <div className="extra2"></div>
           </div>
         </>
       </>

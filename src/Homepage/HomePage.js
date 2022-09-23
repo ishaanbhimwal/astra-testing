@@ -4,9 +4,8 @@ import Videoheader from "./Videoheader";
 function HomePage() {
   return (
     <div>
-      
       <div>
-        <Videoheader/>
+        <Videoheader />
         <Domain />
       </div>
     </div>
