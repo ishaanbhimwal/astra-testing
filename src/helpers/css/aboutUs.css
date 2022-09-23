@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Gideon+Roman&family=Ruthie&display=swap');
+.vision-mission-astra{
+    padding: 2vw;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.about-astra{
+    padding: 2vw;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right:auto;
+}
+.about-astra h1{
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size:calc(25px + 1vw);
+}
+
+.contains-stats{
+    padding: 1vw;
+    margin-top: 2vw;
+}
+
+@media (max-width: 600px) {
+    .vision-mission-astra{
+        padding: 0.5vw;
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    
+    .about-astra{
+        padding: 0.5vw;
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .contains-stats{
+        padding: 0.25vw;
+    }
+}

@@ -1,0 +1,39 @@
+.four-oh-four{
+  width:100vw;
+  height:100vh;
+  overflow: hidden;   
+}
+.textlink-404 {
+  /* background: #73ad21; */
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: 30%;
+  transform: translate(-65%, -240%);
+  width: 45%;
+  height: 45%;
+}
+.four-oh-four .btn-primary {
+  border-radius: 20px;
+  border: #8550fc;
+  padding: 20px 90px;
+  margin: 10px 5px;
+  cursor: pointer;
+  /* width: fit-content; */
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: white;
+  width: 40%;
+  background-color: #8550fc;
+  font-family: Arial;
+  font-weight: bold;
+  position: relative;
+  opacity: 1;
+}
+.four-oh-four .btn-primary:hover {
+  opacity: 0.98;
+  background-color: #a796ff;
+}
+.four-oh-four .text {
+  font-size: medium;
+}

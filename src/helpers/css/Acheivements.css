@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.achievements_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 720px) { 
+  .achievements_container {
+    display: none;
+  }
+}
+
+
+.achievements_container h2{
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.achievements_container h2 span {
+  font-size: 30px;
+}
+
+.achievements_container p {
+  font-size: 20px;
+}
+
+.achievements_container > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.achievements_container > div:hover {
+  transform: scale(0.97);
+}
+
+.achievements_container > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.achievements_container > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+
+.achievements_container > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.achievements_container > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.achievements_container .bg1 {
+  opacity: 0.6;
+  background: url("https://i.ibb.co/Fb5jb3J/bg2.jpg");
+}
+
+.achievements_container .bg1:hover {
+  opacity: 0.9;
+}
+.achievements_container .bg2 {
+  opacity: 0.6;
+  background: url("https://i.ibb.co/dBLbrRV/bg1.jpg");
+}
+
+.achievements_container .bg2:hover {
+  opacity: 1;
+}
+.achievements_container .achievements_container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 0px;
+}
+
+.achievements_container .child {
+  background-color: transparent;
+  width: 150px;
+  height: 100px;
+  perspective: 1000px;
+}
+
+.achievements_container .child-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.achievements_container .child:focus {
+  outline: 0;
+}
+
+.achievements_container .child:hover .child-inner,
+.achievements_container .child:focus .child-inner {
+  transform: rotateX(180deg);
+}
+
+.achievements_container .child-front,
+.achievements_container .child-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.achievements_container .child-front {
+  color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievements_container .child-back {
+  color: white;
+  transform: rotateX(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievements_container h2 {
+  opacity: 1 !important;
+}

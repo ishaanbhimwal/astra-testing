@@ -1,0 +1,45 @@
+.Stat_block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: dense;
+}
+
+.Stat_block div {
+  padding: 10px 16px;
+  margin: 2px;
+  text-align: center;
+  border-bottom: 5px solid #f0f0f0;
+  border-right: 5px solid #f0f0f0;
+  transition: box-shadow 500ms;
+}
+
+.Stat_block h2 {
+  font-size: 20px;
+  color: #c2456a;
+  margin-bottom: 8px;
+}
+
+.Stat_block div:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Stat_big {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.Stat_med {
+  grid-column-end: span 1;
+  grid-row-end: span 2;
+}
+
+.Stat_small {
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+@media screen and (max-width: 800px) {
+  .Stat_block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
