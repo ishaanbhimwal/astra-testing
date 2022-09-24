@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
-
 .sponsorship_tiers_back {
   height: 38vh;
   width: 100em;
@@ -11,7 +9,6 @@
 
 .sponsorship-tiers {
   color: #fff;
-  font-family: "Nunito Semibold";
   text-align: center;
 }
 
@@ -24,7 +21,6 @@
 .sponsorship_tiers_heading {
   font-size: large;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sponsorship-tier-number {
@@ -46,7 +42,6 @@
   }
   .sponsorship-tier-number {
     display: inline-block;
-    font-family: "Vast Shadow", cursive;
     font-size: calc(2vh + 20px);
   }
   #sponsorship-container div {

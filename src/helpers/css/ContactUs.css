@@ -27,7 +27,6 @@
 }
 
 .contactus_parent {
-  font-family: "Gideon Roman", cursive;
   font-size: calc(5px + 1.5vh);
   max-width: 1200px;
   width: 80%;
@@ -46,10 +45,6 @@
   margin: 2vh;
   width: 100%;
   align-self: center;
-}
-
-.contactus_parent h2 {
-  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .contact_logo img {

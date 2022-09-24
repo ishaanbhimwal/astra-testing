@@ -1,9 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700,400);
-
 .teamPageHeader {
   padding: 0;
   background-color: #eeeeef;
-  font-family: Montserrat, Helvetica, Times, serif;
   font-size: 1rem;
   line-height: 1.45;
   text-rendering: optimizeLegibility;

@@ -150,7 +150,6 @@
 }
 
 .projectslide_div_description p {
-  font-family: "Gideon Roman", cursive;
   font-size: medium;
   padding-left: 2vw;
   padding-right: 1vw;
@@ -170,7 +169,6 @@
 
 .projectslide_div_title .swiper-slide {
   text-align: center;
-  font-family: "Alegreya Sans SC", sans-serif;
   font-size: calc(15px + 1vw + 1vh);
   font-weight: bold;
   background: transparent;
@@ -267,7 +265,6 @@
   }
   .projectslide_div_description h1 {
     display: block;
-    font-family: "Alegreya Sans SC", sans-serif;
     font-size: calc(15px + 1vw + 1vh);
   }
 }

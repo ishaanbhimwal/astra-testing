@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Gideon+Roman&family=Ruthie&display=swap");
 .vision-mission-astra {
   padding: 2vw;
   max-width: 80vw;
@@ -14,7 +13,6 @@
 }
 .about-astra h1 {
   text-align: center;
-  font-family: "Gideon Roman", cursive;
   font-size: calc(25px + 1vw);
 }
 
