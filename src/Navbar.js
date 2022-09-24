@@ -94,7 +94,7 @@ function Navbar2() {
             {/*This part is hidden when in mobile screens*/}
             <img src={AstraLogo} alt="" width={55} height={50} />
             <Link to="" className="navbar-name" onClick={closeMobileMenu}>
-              Astra
+              Astra Robotics
               <i className="fa fa-firstdraft" />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
