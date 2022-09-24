@@ -162,7 +162,6 @@
   }
   .team_alt_card figure {
     position: relative;
-    z-index: 10;
     width: 10em;
     height: 10em;
     margin: 0 auto 1em;
