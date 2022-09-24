@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/astra-testing/static/css/main.ccd2679a.css",
+    "main.js": "/astra-testing/static/js/main.243b6ea3.js",
+    "static/media/video.mp4": "/astra-testing/static/media/video.8e4e1e0b571d97dfbd28.mp4",
+    "static/media/mars_rover.PNG": "/astra-testing/static/media/mars_rover.8e22aeebb9063be37201.PNG",
+    "static/media/cutee.gif": "/astra-testing/static/media/cutee.d7036dcacaa80001c592.gif",
+    "static/media/domain_img.jpg": "/astra-testing/static/media/domain_img.f34a49ea80bb2aaf3bb8.jpg",
+    "static/media/stellus.PNG": "/astra-testing/static/media/stellus.253de20033a93eb531a3.PNG",
+    "static/media/Error.png": "/astra-testing/static/media/Error.d4adced02b3b11c6fa83.png",
+    "static/media/HAL.PNG": "/astra-testing/static/media/HAL.189290a7b149040d6476.PNG",
+    "static/media/sponsor.gif": "/astra-testing/static/media/sponsor.c3860e7c3552253404e2.gif",
+    "static/media/doggo.PNG": "/astra-testing/static/media/doggo.3e0fbfa236bc2c13268a.PNG",
+    "static/media/astra_logo.png": "/astra-testing/static/media/astra_logo.5dda99d8ab812c638f93.png",
+    "static/media/1.png": "/astra-testing/static/media/1.1b14abd843e7e3bb4acc.png",
+    "static/media/astra_logo_white.png": "/astra-testing/static/media/astra_logo_white.ec91067c3b4ca14e06aa.png",
+    "static/media/01.png": "/astra-testing/static/media/01.549a08cc5e405c975e49.png",
+    "static/media/3.png": "/astra-testing/static/media/3.69af7a84f67001eca807.png",
+    "static/media/Embedded_systems.png": "/astra-testing/static/media/Embedded_systems.fda48c63ebce718116d1.png",
+    "static/media/2.png": "/astra-testing/static/media/2.5cddebf2bed2fa32c438.png",
+    "static/media/Control_system_illustration.png": "/astra-testing/static/media/Control_system_illustration.aef380aab7a92a3cb591.png",
+    "static/media/computer-vision-illustration.png": "/astra-testing/static/media/computer-vision-illustration.dc4721b669734f0f4538.png",
+    "static/media/ig_background.jpg": "/astra-testing/static/media/ig_background.11c1067d6e0e4db23840.jpg",
+    "static/media/02.png": "/astra-testing/static/media/02.75cd55ed7dc38e086532.png",
+    "static/media/03.png": "/astra-testing/static/media/03.56c4fd22a9842309619e.png",
+    "index.html": "/astra-testing/index.html",
+    "static/media/ig.svg": "/astra-testing/static/media/ig.7c6bfe4680b1cacb69d906510226cbf9.svg",
+    "static/media/yt.svg": "/astra-testing/static/media/yt.63b5654158b0d7a0183bd3faadf2ad14.svg",
+    "static/media/li.svg": "/astra-testing/static/media/li.35e825d0be9371fea9e555f8e3d7af86.svg",
+    "main.ccd2679a.css.map": "/astra-testing/static/css/main.ccd2679a.css.map",
+    "main.243b6ea3.js.map": "/astra-testing/static/js/main.243b6ea3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccd2679a.css",
+    "static/js/main.243b6ea3.js"
+  ]
+}
