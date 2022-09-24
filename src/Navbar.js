@@ -13,7 +13,6 @@ import PresentProjectPage from "./Project/PresentProjectPage.js";
 import SponsorshipPage from "./Sponsorship/SponsorshipPage";
 import FourOhFour from "./FourOhFour";
 import AstraLogo from "./helpers/images/astra_logo_white.png";
-//import DoggoVisualizer from "./Project/DoggoVisualizer";
 
 function Navbar2() {
   const [click, setClick] = useState(false);
@@ -42,7 +41,7 @@ function Navbar2() {
   };
 
   const onMobileNavbarClick = () => {
-    document.getElementById("active").click()
+    document.getElementById("active").click();
   };
 
   return (
@@ -63,32 +62,56 @@ function Navbar2() {
                 </Link>
               </li>
               <li>
-                <Link to="/presentprojects" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/presentprojects"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   Present Projects
                 </Link>
               </li>
               <li>
-                <Link to="/pastprojects" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/pastprojects"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   Past Projects
                 </Link>
               </li>
               <li>
-                <Link to="/team" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/team"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   Team
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/about-us"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/sponsorship" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/sponsorship"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   Sponsorships
                 </Link>
               </li>
               <li>
-                <Link to="/contact-us" className="nav-links" onClick={onMobileNavbarClick}>
+                <Link
+                  to="/contact-us"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
                   Contact Us
                 </Link>
               </li>
@@ -161,13 +184,16 @@ function Navbar2() {
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="" element={<HomePage />} />
           <Route exact path="/sponsorship" element={<SponsorshipPage />} />
-          <Route exact path="/presentprojects/*" element={<PresentProjectPage />}/>
+          <Route
+            exact
+            path="/presentprojects"
+            element={<PresentProjectPage />}
+          />
           <Route exact path="/pastprojects" element={<PastProjectPage />} />
-          {/* <Route exact path="/DoggoVisualizer" element={<DoggoVisualizer />} /> */}
           <Route exact path="/team" element={<TeamPage />} />
           <Route exact path="/contact-us" element={<ContactUsPage />} />
           <Route exact path="/about-us" element={<AboutUsPage />} />
-          
+          <Route exact path="*" element={<FourOhFour />} />
         </Routes>
       </Router>
     </>
