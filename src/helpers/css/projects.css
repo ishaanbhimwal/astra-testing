@@ -101,7 +101,6 @@
 .projectslide_div_description {
   grid-area: 2 / 2 / 3 / 3;
   height: auto;
-  margin-top: -10vh;
 }
 
 .projectslide_div_description .swiper {
@@ -159,7 +158,7 @@
 /*__________________________________________________________________________________________________________________*/
 
 .projectslide_div_title {
-  margin-top:0vh;
+  margin-top:10vh;
   grid-area: 1 / 2 / 2 / 3;
 }
 

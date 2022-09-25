@@ -1,4 +1,14 @@
-.doggoBG{
+.model_visualizer_canvas{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+}
+
+@media (max-width: 960px) {
+
+    .projectslide_div_image{
+        width: 100vw;
+        height: 40vh;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
 }

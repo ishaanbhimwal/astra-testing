@@ -4,8 +4,13 @@ import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
-import { Link } from "react-router-dom";
-import Play  from "../helpers/images/Play.png";
+import { Suspense } from 'react'
+import { useEffect } from "react";
+import { Canvas, useThree } from '@react-three/fiber'
+import "../helpers/css/DoggoVisualizer.css"
+import { Html, useProgress } from '@react-three/drei'
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import Model from './Model'
 
 import {
   Keyboard,
@@ -23,12 +28,6 @@ import "swiper/css/autoplay";
 //import "swiper/css/navigation";
 //import "swiper/css/effect-fade";
 
-import doggo from "../helpers/images/doggo.PNG";
-import HAL from "../helpers/images/HAL.PNG";
-const pics = [
-  { img: doggo, id: 1 },
-  { img: HAL, id: 2 },
-];
 const headers = [
   { title: "Doggo", id: 3 },
   { title: "High-speed Autonomous Logistics", id: 4 },
@@ -48,30 +47,34 @@ const paras = [
   },
 ];
 
-const visualize = [
-  {id:1, url:"/DoggoVisualizer"},
-  {id:2, url:"hal"},
-  {id:3, url:"doggo"},
-]
+function Loader() {
+  const { progress } = useProgress()
+  return <Html center>{progress} % loaded</Html>
+}
+
+const CameraController = () => {
+  const { camera, gl } = useThree();
+  useEffect(
+    () => {
+      const controls = new OrbitControls(camera, gl.domElement);
+
+      controls.minDistance = 3;
+      controls.maxDistance = 20;
+      return () => {
+        controls.dispose();
+      };
+    },
+    [camera, gl]
+  );
+  return null;
+};
 
 const Fibonacci = (props) => {
   return (
-    <div
-      className="fibonacci_parent"
-      style={{
-        backgroundImage: `url(${props.bg_url})`,
-      }}
-    >
-      <div className="fibonacci_div1"> </div>
-      <div className="fibonacci_div2"> </div>
-      <div className="fibonacci_div3"> </div>
-      <div className="fibonacci_div4"> </div>
-      <div className="fibonacci_div5"> </div>
-      <div className="fibonacci_div6"> </div>
-      <div className="fibonacci_div7"> </div>
+    <div className="fibonacci_parent">
     </div>
-  );
-};
+  )};
+
 
 function PresentProjectPage() {
   // store swiper instances
@@ -82,28 +85,6 @@ function PresentProjectPage() {
   return (
     <>
       <div className="projectslide_parent">
-        <div className="projectslide_div_image">
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={100}
-            keyboard={{
-              enabled: false,
-            }}
-            direction={"vertical"}
-            modules={[Controller]}
-            onSwiper={setFirstSwiper}
-            controller={{
-              control: [thirdSwiper, controlledSwiper, thirdSwiper],
-            }}
-            className="projectslide_fibonacci_holder"
-          >
-            {pics.map((pic) => (
-              <SwiperSlide key={pic.id}>
-                <Fibonacci bg_url={pic.img} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
 
         <div className="projectslide_div_title">
           <Swiper
@@ -151,41 +132,21 @@ function PresentProjectPage() {
           </Swiper>
         </div>
 
-        <div className="projectslide_div_visualize">
-        <Swiper
-            slidesPerView={100}
-            spaceBetween={50}
-            keyboard={{
-              enabled: true,
-            }}
-            direction={"vertical"}
-            mousewheel={true}
-            pagination={{
-              clickable: true,
-            }}
-            
-            autoplay={true}
-            modules={[Controller, Keyboard, Pagination, Autoplay]}
-            onSwiper={setThirdSwiper}
-            controller={{control: [firstSwiper, controlledSwiper, firstSwiper] }}
-            className="projectslide_visualize"
-          >
-            {visualize.map((visualize) => (
-              <SwiperSlide key={visualize.id}>
-                <div>
-
-                  <Link to={visualize.url} className="Visualize_btn">
-                    <button> 
-                      <img src={Play} width={35} height={20}></img> VISUALIZE 
-                    </button>
-                  </Link>
-
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+        <div className="projectslide_div_image">
+        <Canvas className="model_visualizer_canvas">
+          <ambientLight/>
+          <pointLight position={[10, 10, 10]} intensity={2}/>
+          <pointLight position={[10, -10, 10]} intensity={2}/>
+          <pointLight position={[-10, 0, 10]} intensity={2}/>
+          <pointLight position={[0, 0, -10]} intensity={2}/>
+          <CameraController />
+          <Suspense fallback={Loader}>
+          <Model scale={[10,10,10]} position={[0,0,0]}/>
+        </Suspense>
+      </Canvas>
       </div>
+      </div>
+
       <div>
         <div className="spacer"></div>
         <Footer />
