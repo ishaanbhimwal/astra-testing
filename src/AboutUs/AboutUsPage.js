@@ -1,21 +1,21 @@
 import React from "react";
 import Statistics from "./Stats_Prajwal";
 //import VisionMission from "./VisionMision";
-import TeamPageHeader from "../Team/TeamPageHeader";
+// import TeamPageHeader from "../Team/TeamPageHeader";
 import Grids from "./Achievements_Nisarga";
 import Footer from "../Footer";
 
 import "../helpers/css/aboutUs.css";
 
-const aboutpageText = {
-  normalText: "About",
-  emphasisText: "us",
-};
+// const aboutpageText = {
+//   normalText: "About",
+//   emphasisText: "us",
+// };
 
 function AboutPage() {
   return (
     <div>
-      <TeamPageHeader {...aboutpageText} />
+      {/* <TeamPageHeader {...aboutpageText} /> */}
       <div className="about-astra">
         <h1>About Astra</h1>
         <p>

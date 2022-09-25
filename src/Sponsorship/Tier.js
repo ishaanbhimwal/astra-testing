@@ -1,8 +1,8 @@
 import React from "react";
 import "../helpers/css/tier.css";
-import outline1 from "../helpers/images/01.png";
-import outline2 from "../helpers/images/02.png";
-import outline3 from "../helpers/images/03.png";
+// import outline1 from "../helpers/images/01.png";
+// import outline2 from "../helpers/images/02.png";
+// import outline3 from "../helpers/images/03.png";
 import gif from "../helpers/images/cutee.gif";
 import gif2 from "../helpers/images/sponsor.gif";
 import o1 from "../helpers/images/1.png";
