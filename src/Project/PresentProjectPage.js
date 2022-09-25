@@ -1,9 +1,12 @@
 import "../helpers/css/projects.css";
 import Footer from "../Footer.js";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
+import { Link } from "react-router-dom";
+import Play  from "../helpers/images/Play.png";
+
 import {
   Keyboard,
   Pagination,
@@ -44,6 +47,12 @@ const paras = [
     id: 6,
   },
 ];
+
+const visualize = [
+  {id:1, url:"/DoggoVisualizer"},
+  {id:2, url:"hal"},
+  {id:3, url:"doggo"},
+]
 
 const Fibonacci = (props) => {
   return (
@@ -136,6 +145,41 @@ function PresentProjectPage() {
                 <div>
                   <h1>{para.title}</h1>
                   <p>{para.content}</p>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        <div className="projectslide_div_visualize">
+        <Swiper
+            slidesPerView={100}
+            spaceBetween={50}
+            keyboard={{
+              enabled: true,
+            }}
+            direction={"vertical"}
+            mousewheel={true}
+            pagination={{
+              clickable: true,
+            }}
+            
+            autoplay={true}
+            modules={[Controller, Keyboard, Pagination, Autoplay]}
+            onSwiper={setThirdSwiper}
+            controller={{control: [firstSwiper, controlledSwiper, firstSwiper] }}
+            className="projectslide_visualize"
+          >
+            {visualize.map((visualize) => (
+              <SwiperSlide key={visualize.id}>
+                <div>
+
+                  <Link to={visualize.url} className="Visualize_btn">
+                    <button> 
+                      <img src={Play} width={35} height={20}></img> VISUALIZE 
+                    </button>
+                  </Link>
+
                 </div>
               </SwiperSlide>
             ))}
