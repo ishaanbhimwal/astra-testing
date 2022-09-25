@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../helpers/css/Acheivements.css";
+import "../helpers/css/Achievements.css";
 
 class Grids extends Component {
   constructor(props) {
@@ -117,7 +117,7 @@ class Grids extends Component {
                 </div>
               </div>
             </div>
-            <p>Acheivement</p>
+            <p>Achievements</p>
           </div>
         </div>
       </>

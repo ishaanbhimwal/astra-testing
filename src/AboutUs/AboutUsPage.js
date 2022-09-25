@@ -2,7 +2,7 @@ import React from "react";
 import Statistics from "./Stats_Prajwal";
 //import VisionMission from "./VisionMision";
 import TeamPageHeader from "../Team/TeamPageHeader";
-import Grids from "./Acheivements_Nisarga";
+import Grids from "./Achievements_Nisarga";
 import Footer from "../Footer";
 
 import "../helpers/css/aboutUs.css";

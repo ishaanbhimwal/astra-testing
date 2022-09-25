@@ -34,7 +34,7 @@ const paras = [
   {
     title: "The MARS ROVER PROJECT (2019)",
     content:
-      " We participate every year in The University Rover Challange(URC) which is an annual international competetion hosted by the Mars Society for university and college teams to fabricate a prototype Mars Rover, which will then be subjected to a series of tasks and challenges.The competition pushes the teams to the extreme limits of engineering, management and proactively work towards the motto of the challenge 'Think, Design and Engineer'",
+      " We participate every year in The University Rover Challenge(URC) which is an annual international competition hosted by the Mars Society for university and college teams to fabricate a prototype Mars Rover, which will then be subjected to a series of tasks and challenges.The competition pushes the teams to the extreme limits of engineering, management and proactively work towards the motto of the challenge 'Think, Design and Engineer'",
     id: 7,
   },
   {
