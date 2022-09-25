@@ -10,7 +10,8 @@ import { Canvas, useThree } from '@react-three/fiber'
 import "../helpers/css/DoggoVisualizer.css"
 import { Html, useProgress } from '@react-three/drei'
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import Model from './Model'
+import DoggoModel from './DoggoModel'
+import HALModel from './HALModel'
 
 import {
   Keyboard,
@@ -45,6 +46,17 @@ const paras = [
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     id: 6,
   },
+];
+
+const visualize = [
+  {
+    id: 1,
+    name: DoggoModel
+  },
+  {
+    id: 2,
+    name: HALModel
+  }
 ];
 
 function Loader() {
@@ -133,19 +145,43 @@ function PresentProjectPage() {
         </div>
 
         <div className="projectslide_div_image">
-        <Canvas className="model_visualizer_canvas">
-          <ambientLight/>
-          <pointLight position={[10, 10, 10]} intensity={2}/>
-          <pointLight position={[10, -10, 10]} intensity={2}/>
-          <pointLight position={[-10, 0, 10]} intensity={2}/>
-          <pointLight position={[0, 0, -10]} intensity={2}/>
-          <CameraController />
-          <Suspense fallback={Loader}>
-          <Model scale={[10,10,10]} position={[0,0,0]}/>
-        </Suspense>
-      </Canvas>
-      </div>
-      </div>
+        <Swiper
+            slidesPerView={1}
+            spaceBetween={100}
+            keyboard={{
+              enabled: false,
+            }}
+            direction={"vertical"}
+            modules={[Controller]}
+            onSwiper={setFirstSwiper}
+            mousewheel={true}
+            pagination={{
+              clickable: true,
+            }}
+            autoplay={true}
+            controller={{
+              control: [thirdSwiper, controlledSwiper, thirdSwiper],
+            }}
+            className="projectslide_description"
+          >
+            {visualize.map((visualize) => (
+              <SwiperSlide key={visualize.id}>
+                <Canvas className="model_visualizer_canvas">
+                  <ambientLight/>
+                  <pointLight position={[10, 10, 10]} intensity={2}/>
+                  <pointLight position={[10, -10, 10]} intensity={2}/>
+                  <pointLight position={[-10, 0, 10]} intensity={2}/>
+                  <pointLight position={[0, 0, -10]} intensity={2}/>
+                  <CameraController />
+                  <Suspense fallback={Loader}>
+                  <visualize.name scale={[10,10,10]} position={[0,0,0]}/>
+                </Suspense>
+              </Canvas>
+              </SwiperSlide>
+            ))}
+            </Swiper>
+          </div>
+        </div>
 
       <div>
         <div className="spacer"></div>
