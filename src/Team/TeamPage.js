@@ -3,12 +3,12 @@ import Footer from "../Footer";
 import "../helpers/css/Team.css";
 import Member from "./Member";
 
-import TeamPageHeader from "./TeamPageHeader";
+// import TeamPageHeader from "./TeamPageHeader";
 
-const teampageText = {
-  normalText: "Introducing the",
-  emphasisText: "Team",
-};
+// const teampageText = {
+//   normalText: "Introducing the",
+//   emphasisText: "Team",
+// };
 
 export default function TeamPage() {
   /*
@@ -21,49 +21,52 @@ export default function TeamPage() {
   */
   return (
     <>
-      <TeamPageHeader {...teampageText} />
+      {/* <TeamPageHeader {...teampageText} /> */}
+      <div className="about-astra">
+        <h1>Introducing the Team</h1>
+      </div>
       <div className="team_alt_parent">
         <div className="team_alt_div1">
-         <Member id={0}/>
+          <Member id={0} />
         </div>
         <div className="team_alt_div2">
-        <Member id={1}/>
+          <Member id={1} />
         </div>
         <div className="team_alt_div3">
-        <Member id={2}/>
+          <Member id={2} />
         </div>
         <div className="team_alt_div4">
-        <Member id={3}/>
+          <Member id={3} />
         </div>
         <div className="team_alt_div5">
-        <Member id={4}/>
+          <Member id={4} />
         </div>
         <div className="team_alt_div6">
-        <Member id={5}/>
+          <Member id={5} />
         </div>
         <div className="team_alt_div7">
-        <Member id={6}/>
+          <Member id={6} />
         </div>
         <div className="team_alt_div8">
-        <Member id={7}/>
+          <Member id={7} />
         </div>
         <div className="team_alt_div9">
-        <Member id={8}/>
+          <Member id={8} />
         </div>
         <div className="team_alt_div10">
-        <Member id={9}/>
+          <Member id={9} />
         </div>
         <div className="team_alt_div11">
-        <Member id={10}/>
+          <Member id={10} />
         </div>
         <div className="team_alt_div12">
-        <Member id={11}/>
+          <Member id={11} />
         </div>
         <div className="team_alt_div13">
-        <Member id={12}/>
+          <Member id={12} />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
