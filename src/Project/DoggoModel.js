@@ -17,6 +17,7 @@ export default function DoggoModel(props) {
         castShadow
         receiveShadow
         geometry={nodes.doggo.geometry}
+        scale={1.0}
         ref={boxRef}
         rotation-x={Math.PI * 0.1}
       >

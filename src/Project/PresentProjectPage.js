@@ -30,18 +30,18 @@ import "swiper/css/autoplay";
 //import "swiper/css/effect-fade";
 
 const headers = [
-  { title: "Doggo", id: 3 },
-  { title: "High-speed Autonomous Logistics", id: 4 },
+  { title: "Doggo - A Quadruped", id: 3 },
+  { title: "HAL - High-speed Autonomous Logistics", id: 4 },
 ];
 const paras = [
   {
-    title: "Doggo",
+    title: "Doggo - A Quadruped",
     content:
       " We participate every year in The University Rover Challenge(URC) which is an annual international competition hosted by the Mars Society for university and college teams to fabricate a prototype Mars Rover, which will then be subjected to a series of tasks and challenges.The competition pushes the teams to the extreme limits of engineering, management and proactively work towards the motto of the challenge 'Think, Design and Engineer'",
     id: 5,
   },
   {
-    title: "HAL",
+    title: "HAL - High-speed Autonomous Logistics",
     content:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     id: 6,
