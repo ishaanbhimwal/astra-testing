@@ -17,11 +17,11 @@ export default function Model(props) {
   return (
     <group {...props} dispose={null}>
       <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Suzanne.geometry}
-        ref={boxRef} rotation-x={Math.PI * 0.25}
-        scale={0.2}
+         castShadow
+         receiveShadow
+         geometry={nodes.base_link.geometry}
+         scale={0.3}
+        ref={boxRef} rotation-x={Math.PI * 0.1}
       >
         <meshStandardMaterial color={'#2f3241'} />
     </mesh>
