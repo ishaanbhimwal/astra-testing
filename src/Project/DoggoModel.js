@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import doggo from "../helpers/models/doggo.gltf";
 import { useFrame } from "@react-three/fiber";
 
-export default function Model(props) {
+export default function DoggoModel(props) {
   const { nodes, materials } = useGLTF(doggo);
   const boxRef = useRef();
 
