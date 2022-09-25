@@ -19,8 +19,9 @@ function ContactUsPage() {
       <div className="contactus_div2">
         <div className="contactus_info">
           <h2>Address</h2>
-          <p>Address line 1</p>
-          <p>Address line 2</p>
+          <p>Mysore Road, RV Vidyanikethan Post,</p>
+          <p>Bengaluru-560059, Karnataka,</p>
+          <p>India</p>
           <h2>Phone Number</h2>
           <p>Shashank: +91 76758 73584</p>
           <p>Kiran: +91 96208 48507</p>

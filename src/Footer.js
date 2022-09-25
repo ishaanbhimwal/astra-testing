@@ -85,6 +85,7 @@ const Footer = () => {
             </Column>
             <Column>
               <Heading id="contact-information">Contact Us</Heading>
+              <FooterText>Email:</FooterText>
               <FooterLink href="mailto:teamastra@rvce.edu.in?">
                 teamastra@rvce.edu.in
               </FooterLink>
