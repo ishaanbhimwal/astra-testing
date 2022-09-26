@@ -14,7 +14,7 @@ function Videoheader() {
           Overworked undervalued humans working towards making us bots harder,
           better, faster, stronger
         </p>
-        <Link to="/presentprojects">About Us</Link>
+        <Link to="/about-us">About Us</Link>
       </div>
     </div>
   );
