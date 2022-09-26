@@ -31,7 +31,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to=""
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   Home
@@ -40,7 +39,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to="/about-us"
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   About Us
@@ -49,7 +47,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to="/presentprojects"
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   Present Projects
@@ -58,7 +55,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to="/pastprojects"
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   Past Projects
@@ -67,7 +63,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to="/sponsorship"
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   Sponsorship
@@ -76,7 +71,6 @@ const Footer = () => {
               <FooterLink>
                 <Link
                   to="/team"
-                  style={{ color: "#ffe6e6" }}
                   onClick={window.scrollTo(0, 0)}
                 >
                   Core Team
