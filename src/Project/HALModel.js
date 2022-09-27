@@ -24,8 +24,8 @@ export default function Model(props) {
         ref={boxRef}
         rotation-x={Math.PI * 0.1}
       >
-        <meshStandardMaterial color={"#2f3241"} />
-      </mesh>
+        <meshStandardMaterial color={'#41599A'} />
+    </mesh>
     </group>
   );
 }
