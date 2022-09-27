@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/astra-testing/static/css/main.dab82ecb.css",
-    "main.js": "/astra-testing/static/js/main.786350c6.js",
-    "static/media/video.mp4": "/astra-testing/static/media/video.8e4e1e0b571d97dfbd28.mp4",
+    "main.css": "/astra-testing/static/css/main.2aa529c5.css",
+    "main.js": "/astra-testing/static/js/main.5fc1acdb.js",
     "static/media/hal.gltf": "/astra-testing/static/media/hal.aa23184ad28c39bd504a.gltf",
     "static/media/doggo.gltf": "/astra-testing/static/media/doggo.c141eac3e3bb35628764.gltf",
     "static/media/mars_rover.PNG": "/astra-testing/static/media/mars_rover.8e22aeebb9063be37201.PNG",
     "static/media/cutee.gif": "/astra-testing/static/media/cutee.d7036dcacaa80001c592.gif",
+    "static/media/video.webm": "/astra-testing/static/media/video.b91fe9468b1c9f26ea56.webm",
     "static/media/domain_img.jpg": "/astra-testing/static/media/domain_img.f34a49ea80bb2aaf3bb8.jpg",
     "static/media/stellus.PNG": "/astra-testing/static/media/stellus.253de20033a93eb531a3.PNG",
     "static/media/Error.png": "/astra-testing/static/media/Error.d4adced02b3b11c6fa83.png",
@@ -31,11 +31,11 @@
     "static/media/ig.svg": "/astra-testing/static/media/ig.7c6bfe4680b1cacb69d906510226cbf9.svg",
     "static/media/yt.svg": "/astra-testing/static/media/yt.63b5654158b0d7a0183bd3faadf2ad14.svg",
     "static/media/li.svg": "/astra-testing/static/media/li.35e825d0be9371fea9e555f8e3d7af86.svg",
-    "main.dab82ecb.css.map": "/astra-testing/static/css/main.dab82ecb.css.map",
-    "main.786350c6.js.map": "/astra-testing/static/js/main.786350c6.js.map"
+    "main.2aa529c5.css.map": "/astra-testing/static/css/main.2aa529c5.css.map",
+    "main.5fc1acdb.js.map": "/astra-testing/static/js/main.5fc1acdb.js.map"
   },
   "entrypoints": [
-    "static/css/main.dab82ecb.css",
-    "static/js/main.786350c6.js"
+    "static/css/main.2aa529c5.css",
+    "static/js/main.5fc1acdb.js"
   ]
 }
