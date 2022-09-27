@@ -168,10 +168,7 @@ function PresentProjectPage() {
               <SwiperSlide key={visualize.id}>
                 <Canvas className="model_visualizer_canvas">
                   <ambientLight/>
-                  <pointLight position={[10, 10, 10]} intensity={2}/>
-                  <pointLight position={[10, -10, 10]} intensity={2}/>
-                  <pointLight position={[-10, 0, 10]} intensity={2}/>
-                  <pointLight position={[0, 0, -10]} intensity={2}/>
+                  <pointLight position={[10, 10, 10]} intensity={1}/>
                   <CameraController />
                   <Suspense fallback={Loader}>
                   <visualize.name scale={[10,10,10]} position={[0,0,0]}/>
