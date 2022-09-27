@@ -1,6 +1,6 @@
 .dropdown-menu {
   z-index: 12;
-  background: #2f3241;
+  background: #41599A;
   width: 185px;
   position: absolute;
   top: 70px;
@@ -18,7 +18,7 @@
 }
 
 .dropdown-menu li:hover {
-  background: #2f3241;
+  background: #41599A;
   transition: all 0.2s ease-out;
 }
 
