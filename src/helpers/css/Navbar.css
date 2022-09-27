@@ -31,7 +31,6 @@
   text-align: center;
   width: 70vw;
   justify-content: end;
-  /*margin-right: 2rem;*/
 }
 
 .nav-item {
@@ -47,7 +46,7 @@
 }
 
 .nav-links:hover {
-  background-color: #2f3241;
+  background-color: #41599a;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

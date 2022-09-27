@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Box = styled.div`
   padding: 5px 1px;
   margin: 0;
-  background: rgb(26, 23, 23);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   width: 100vw;
   height: fit-content;
   align-items: center;
@@ -51,7 +51,7 @@ export const Row = styled.div`
 `;
 
 export const FooterLink = styled.a`
-  color: #ffe6e6;
+  color: #fff;
   margin-bottom: 10px;
   font-size: 15px;
   text-decoration: none;
@@ -59,7 +59,7 @@ export const FooterLink = styled.a`
 `;
 
 export const FooterText = styled.p`
-  color: #ffe6e6;
+  color: #fff;
   padding: 0px;
   margin: 1px;
   font-size: 15px;

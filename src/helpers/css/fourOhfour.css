@@ -4,7 +4,6 @@
   overflow: hidden;
 }
 .textlink-404 {
-  /* background: #73ad21; */
   position: relative;
   display: inline-block;
   top: 50%;
@@ -15,23 +14,21 @@
 }
 .four-oh-four .btn-primary {
   border-radius: 20px;
-  border: #8550fc;
+  border: #41599a;
   padding: 20px 90px;
   margin: 10px 5px;
   cursor: pointer;
-  /* width: fit-content; */
-  /* text-align: center; */
   text-transform: uppercase;
-  color: white;
+  color: #fff;
   width: 40%;
-  background-color: #8550fc;
+  background-color: #41599a;
   font-weight: bold;
   position: relative;
   opacity: 1;
 }
 .four-oh-four .btn-primary:hover {
   opacity: 0.98;
-  background-color: #a796ff;
+  background-color: #41599a;
 }
 .four-oh-four .text {
   font-size: medium;
