@@ -7,3 +7,15 @@ left: 0;
 height: 100%;
 width: 100%;
 }
+
+.scroll_image{
+    position: absolute;
+    left: 45vw;
+    top: 80vh;
+    display: none;
+}
+
+.scroll_image img{
+    width: 7vw;
+    height: auto;
+}
