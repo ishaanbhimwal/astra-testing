@@ -1,13 +1,13 @@
 import React from "react";
 import "../helpers/css/tier.css";
-// import outline1 from "../helpers/images/01.png";
-// import outline2 from "../helpers/images/02.png";
-// import outline3 from "../helpers/images/03.png";
+// import outline1 from "../helpers/images/01.webp";
+// import outline2 from "../helpers/images/02.webp";
+// import outline3 from "../helpers/images/03.webp";
 import gif from "../helpers/images/cutee.gif";
 import gif2 from "../helpers/images/sponsor.gif";
-import o1 from "../helpers/images/1.png";
-import o2 from "../helpers/images/2.png";
-import o3 from "../helpers/images/3.png";
+import o1 from "../helpers/images/1.webp";
+import o2 from "../helpers/images/2.webp";
+import o3 from "../helpers/images/3.webp";
 
 class Tier extends React.Component {
   constructor(props) {

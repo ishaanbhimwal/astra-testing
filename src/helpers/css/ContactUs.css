@@ -93,7 +93,7 @@
 }
 .social-menu ul li:nth-child(1) a:hover {
   /*background-color: ;*/
-  background: url("../images/ig_background.jpg") no-repeat center center fixed
+  background: url("../images/ig_background.webp") no-repeat center center fixed
     #e4405f;
   background-size: 100% 100%;
 }

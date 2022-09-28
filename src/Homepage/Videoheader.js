@@ -1,7 +1,7 @@
 import React from "react";
 import video from "../helpers/images/video.webm";
 import "../helpers/css/videoheader.css";
-import scroll from  "../helpers/images/scroll.png"
+import scroll from  "../helpers/images/scroll.webp"
 import {useEffect} from 'react';
 import $ from 'jquery';
 

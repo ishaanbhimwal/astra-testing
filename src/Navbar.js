@@ -12,7 +12,7 @@ import PastProjectPage from "./Project/PastProjectPage.js";
 import PresentProjectPage from "./Project/PresentProjectPage.js";
 import SponsorshipPage from "./Sponsorship/SponsorshipPage";
 import FourOhFour from "./FourOhFour";
-import AstraLogo from "./helpers/images/astra_logo_white.png";
+import AstraLogo from "./helpers/images/astra_logo_white.webp";
 
 function Navbar2() {
   const [click, setClick] = useState(false);

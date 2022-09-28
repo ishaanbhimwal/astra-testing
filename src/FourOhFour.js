@@ -1,7 +1,7 @@
 import React from "react";
 import "./helpers/css/fourOhfour.css";
 import { Link } from "react-router-dom";
-import error from "./helpers/images/Error.png";
+import error from "./helpers/images/Error.webp";
 
 function FourOhFour() {
   return (

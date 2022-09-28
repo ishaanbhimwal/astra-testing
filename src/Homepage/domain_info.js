@@ -1,9 +1,9 @@
 // import {faGear} from "@fortawesome/free-solid-svg-icons"
 
-import domain from "../helpers/images/domain_img.jpg";
-import domain1 from "../helpers/images/Embedded_systems.png";
-import domain2 from "../helpers/images/computer-vision-illustration.png";
-import domain3 from "../helpers/images/Control_system_illustration.png";
+import domain from "../helpers/images/domain_img.webp";
+import domain1 from "../helpers/images/Embedded_systems.webp";
+import domain2 from "../helpers/images/computer-vision-illustration.webp";
+import domain3 from "../helpers/images/Control_system_illustration.webp";
 
 export const domains = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./helpers/images/astra_logo.png";
+import logo from "./helpers/images/astra_logo.webp";
 // import insta from "./helpers/images/insta_logo.png";
 import yt from "./helpers/images/yt.svg";
 import ig from "./helpers/images/ig.svg";

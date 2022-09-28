@@ -18,8 +18,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-import mars_rover from "../helpers/images/mars_rover.PNG";
-import stellus_rover from "../helpers/images/stellus.PNG";
+import mars_rover from "../helpers/images/mars_rover.webp";
+import stellus_rover from "../helpers/images/stellus.webp";
 const pics = [
   { img: mars_rover, id: 1 },
   { img: stellus_rover, id: 2 },
