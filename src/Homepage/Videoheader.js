@@ -25,6 +25,9 @@ function Videoheader() {
       <video autoPlay muted class="video-parent">
         <source src={video} type="video/webm" />
       </video>
+      <div className="scroll_image">
+        <img src={scroll}></img>
+      </div>
     </div>
   );
 }
