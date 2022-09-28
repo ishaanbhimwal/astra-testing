@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/astra-testing/static/css/main.2aa529c5.css",
-    "main.js": "/astra-testing/static/js/main.5fc1acdb.js",
+    "main.css": "/astra-testing/static/css/main.80e7b438.css",
+    "main.js": "/astra-testing/static/js/main.5e75655c.js",
     "static/media/hal.gltf": "/astra-testing/static/media/hal.aa23184ad28c39bd504a.gltf",
     "static/media/doggo.gltf": "/astra-testing/static/media/doggo.c141eac3e3bb35628764.gltf",
     "static/media/mars_rover.PNG": "/astra-testing/static/media/mars_rover.8e22aeebb9063be37201.PNG",
@@ -31,11 +31,11 @@
     "static/media/ig.svg": "/astra-testing/static/media/ig.7c6bfe4680b1cacb69d906510226cbf9.svg",
     "static/media/yt.svg": "/astra-testing/static/media/yt.63b5654158b0d7a0183bd3faadf2ad14.svg",
     "static/media/li.svg": "/astra-testing/static/media/li.35e825d0be9371fea9e555f8e3d7af86.svg",
-    "main.2aa529c5.css.map": "/astra-testing/static/css/main.2aa529c5.css.map",
-    "main.5fc1acdb.js.map": "/astra-testing/static/js/main.5fc1acdb.js.map"
+    "main.80e7b438.css.map": "/astra-testing/static/css/main.80e7b438.css.map",
+    "main.5e75655c.js.map": "/astra-testing/static/js/main.5e75655c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aa529c5.css",
-    "static/js/main.5fc1acdb.js"
+    "static/css/main.80e7b438.css",
+    "static/js/main.5e75655c.js"
   ]
 }
