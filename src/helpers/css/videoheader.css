@@ -19,3 +19,18 @@ width: 100%;
     width: 7vw;
     height: auto;
 }
+
+@media screen and (max-width: 960px) {
+    .videohead video {
+        top: -5vh;
+    }
+
+    .scroll_image img{
+        width: 30vw;
+        height: auto;
+    }
+
+    .scroll_image{
+        left: 37vw;
+    }
+}
