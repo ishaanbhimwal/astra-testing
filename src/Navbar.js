@@ -63,6 +63,15 @@ function Navbar2() {
               </li>
               <li>
                 <Link
+                  to="/about-us"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/presentprojects"
                   className="nav-links"
                   onClick={onMobileNavbarClick}
@@ -81,29 +90,20 @@ function Navbar2() {
               </li>
               <li>
                 <Link
-                  to="/team"
-                  className="nav-links"
-                  onClick={onMobileNavbarClick}
-                >
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about-us"
-                  className="nav-links"
-                  onClick={onMobileNavbarClick}
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/sponsorship"
                   className="nav-links"
                   onClick={onMobileNavbarClick}
                 >
                   Sponsorships
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/team"
+                  className="nav-links"
+                  onClick={onMobileNavbarClick}
+                >
+                  Team
                 </Link>
               </li>
               <li>
@@ -135,6 +135,15 @@ function Navbar2() {
                   Home
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/about-us" className="nav-links">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/sponsorship" className="nav-links">
+                  Sponsorships
+                </Link>
               <li
                 className="nav-item hide-on-mobile"
                 onMouseEnter={onMouseEnter}
@@ -161,16 +170,6 @@ function Navbar2() {
                   Team
                 </Link>
               </li>
-
-              <li className="nav-item">
-                <Link to="/about-us" className="nav-links">
-                  About Us
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/sponsorship" className="nav-links">
-                  Sponsorships
-                </Link>
               </li>
               <li className="nav-item">
                 <Link to="/contact-us" className="nav-links">
